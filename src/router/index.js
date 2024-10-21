@@ -9,6 +9,11 @@ const router = createRouter({
       name: 'Login',
       component: LoginView
     },
+    {
+        path: '/landing',
+        name: 'landing',
+        component: LandingView
+    }
 
   ]
 })
